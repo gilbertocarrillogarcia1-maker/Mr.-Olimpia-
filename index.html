@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mr. Olympia Classic Physique 2026</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f0f0f;
+color:white;
+}
+
+header{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)),
+url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1600');
+background-size:cover;
+background-position:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+header h1{
+font-size:4rem;
+color:#ffd700;
+text-shadow:3px 3px 10px black;
+}
+
+header p{
+font-size:1.3rem;
+margin-top:15px;
+}
+
+nav{
+position:sticky;
+top:0;
+background:#111;
+padding:15px;
+display:flex;
+justify-content:center;
+gap:25px;
+z-index:1000;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+nav a:hover{
+color:#ffd700;
+}
+
+section{
+max-width:1100px;
+margin:auto;
+padding:70px 20px;
+}
+
+h2{
+color:#ffd700;
+margin-bottom:20px;
+font-size:2rem;
+}
+
+.card{
+background:#1b1b1b;
+padding:25px;
+border-radius:15px;
+margin-top:20px;
+box-shadow:0 0 15px rgba(255,215,0,.2);
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.atleta{
+background:#1b1b1b;
+padding:20px;
+border-radius:15px;
+transition:.3s;
+}
+
+.atleta:hover{
+transform:translateY(-8px);
+box-shadow:0 0 20px rgba(255,215,0,.5);
+}
+
+.favorito{
+background:linear-gradient(135deg,#ffd700,#ff9800);
+color:black;
+padding:30px;
+border-radius:15px;
+font-weight:bold;
+font-size:1.1rem;
+}
+
+#contador{
+font-size:2rem;
+font-weight:bold;
+text-align:center;
+color:#ffd700;
+margin-top:20px;
+}
+
+footer{
+background:black;
+text-align:center;
+padding:25px;
+margin-top:50px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+table th, table td{
+border:1px solid #444;
+padding:12px;
+text-align:center;
+}
+
+table th{
+background:#ffd700;
+color:black;
+}
+
+@media(max-width:768px){
+header h1{
+font-size:2.5rem;
+}
+nav{
+flex-wrap:wrap;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>MR. OLYMPIA 2026</h1>
+<p>Classic Physique • Las Vegas • Septiembre 2026</p>
+<div id="contador"></div>
+</header>
+
+<nav>
+<a href="#evento">Evento</a>
+<a href="#reglas">Reglas</a>
+<a href="#competidores">Competidores</a>
+<a href="#favorito">Favorito</a>
+<a href="#datos">Datos Curiosos</a>
+</nav>
+
+<section id="evento">
+<h2>📅 Información del Evento</h2>
+<div class="card">
+<p><strong>Fecha:</strong> 24 al 27 de septiembre de 2026</p>
+<p><strong>Lugar:</strong> Las Vegas, Nevada, Estados Unidos</p>
+<p><strong>Categoría:</strong> Classic Physique</p>
+<p><strong>Transmisión:</strong> Olympia TV</p>
+</div>
+</section>
+
+<section id="reglas">
+<h2>⚖️ Reglas de la Categoría</h2>
+<div class="card">
+<p>La categoría Classic Physique busca físicos estéticos inspirados en la época dorada del culturismo.</p>
+<ul>
+<li>Simetría corporal.</li>
+<li>Definición muscular.</li>
+<li>Proporciones equilibradas.</li>
+<li>Presentación escénica.</li>
+<li>Poses obligatorias.</li>
+</ul>
+</div>
+</section>
+
+<section id="competidores">
+<h2>🏋️ Competidores Destacados</h2>
+
+<div class="grid">
+
+<div class="atleta">
+<h3>Ramón Dino 🇧🇷</h3>
+<p>180 cm • 94.5 kg</p>
+</div>
+
+<div class="atleta">
+<h3>Terrence Ruffin 🇺🇸</h3>
+<p>172 cm • 84 kg</p>
+</div>
+
+<div class="atleta">
+<h3>Wesley Vissers 🇳🇱</h3>
+<p>176 cm • 88 kg</p>
+</div>
+
+<div class="atleta">
+<h3>Mike Sommerfeld 🇩🇪</h3>
+<p>181 cm • 93 kg</p>
+</div>
+
+</div>
+
+<table>
+<tr>
+<th>Atleta</th>
+<th>País</th>
+<th>Estatura</th>
+</tr>
+
+<tr>
+<td>Ramón Dino</td>
+<td>Brasil</td>
+<td>180 cm</td>
+</tr>
+
+<tr>
+<td>Terrence Ruffin</td>
+<td>Estados Unidos</td>
+<td>172 cm</td>
+</tr>
+
+<tr>
+<td>Wesley Vissers</td>
+<td>Países Bajos</td>
+<td>176 cm</td>
+</tr>
+
+<tr>
+<td>Mike Sommerfeld</td>
+<td>Alemania</td>
+<td>181 cm</td>
+</tr>
+
+</table>
+
+</section>
+
+<section id="favorito">
+<h2>🏆 Favorito para Ganar</h2>
+
+<div class="favorito">
+Ramón "Dino" Rocha Queiroz es considerado uno de los favoritos gracias a su excelente estructura física, amplitud de espalda, cintura estrecha y experiencia en escenarios internacionales.
+</div>
+
+</section>
+
+<section id="datos">
+<h2>🎉 Datos Curiosos</h2>
+
+<div class="card">
+<ul>
+<li>La categoría Classic Physique fue creada en 2016.</li>
+<li>Busca recuperar la estética clásica del culturismo.</li>
+<li>Los atletas siguen estrictos planes de alimentación y entrenamiento.</li>
+<li>El evento reúne a miles de aficionados cada año.</li>
+<li>La estatuilla Sandow es uno de los premios más prestigiosos del culturismo.</li>
+</ul>
+</div>
+
+</section>
+
+<footer>
+<p>Mr. Olympia Classic Physique 2026 © Sitio Informativo</p>
+</footer>
+
+<script>
+
+const fechaEvento = new Date("September 24, 2026 00:00:00").getTime();
+
+setInterval(function(){
+
+const ahora = new Date().getTime();
+const diferencia = fechaEvento - ahora;
+
+const dias = Math.floor(diferencia/(1000*60*60*24));
+const horas = Math.floor((diferencia%(1000*60*60*24))/(1000*60*60));
+const minutos = Math.floor((diferencia%(1000*60*60))/(1000*60));
+
+document.getElementById("contador").innerHTML =
+"⏳ Faltan " + dias + " días, " + horas + " horas y " + minutos + " minutos";
+
+},1000);
+
+</script>
+
+</body>
+  </html>
